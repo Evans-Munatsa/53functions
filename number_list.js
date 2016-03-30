@@ -1,3 +1,9 @@
-module.exports = function(n){
-   var result = [1, 2, 3, 4, 5];
+module.exports = function(n) {
+    var array = [];
+
+    //loop through the numbers with the for loop and then push the numbers into the empty array
+    for (var i = 1; i <= n; i++) {
+        array.push(i);
+    };
+    return array;
 };
